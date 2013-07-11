@@ -1,0 +1,197 @@
+body {
+	font-family: Verdana, Arial, Helvetica, serif;
+	font-size: 16px;
+}
+#wrapper {
+	clear: both;
+	height: 100%;
+	margin: 0 auto;
+	min-height: 100%;
+	width: 100%;
+}
+h3 {
+	display: none;
+}
+img {
+	border: 0px;
+}
+footer {
+	background-color: #57585A;
+	height: 70px;
+	clear:both;
+	margin-top: 150px;
+	width: 100%;
+}
+footer img {
+	float: right;
+	margin-right: 20px;
+	margin-top: 18px;
+}
+footer ul {
+	margin-left: 20px;
+}
+footer li {
+	float: left;
+	font-size: 1.0em;
+	font-weight: 100;
+	list-style: none;
+	padding-right: 20px;
+	padding-top: 24px;
+}
+footer li a {
+	color: #B2B3B7;
+	font-size: 0.9em;
+	text-decoration: none;
+}
+footer li a:hover {
+	color: #333;
+	text-decoration: none;
+}
+header {
+	height: auto;
+	width: 100%;
+}
+nav {
+	height: 100%;
+	width: 420px;
+}
+nav ul {
+	font-weight: 100;
+	padding-top: 18px;
+	margin-left: 175px;
+	width: 243px;
+}
+nav li {
+	font-size: 0.8em;
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+}
+nav li a {
+	color: #A2A2A2;
+	padding-right: 15px;
+	text-decoration: none;
+}
+nav li a:hover {
+	color: #fff;
+	padding-right: 15px;
+	text-decoration: none;
+}
+/* ******************************* ID'S ************************************** */
+
+
+
+
+
+
+/* ******************************* CLASES ************************************ */
+.caja {
+	background-image: url("../img/cont-menu.png");
+	height: 50px;
+	float: right;
+	width: 430px;
+}
+.caja img {
+	vertical-align: middle;
+	margin-top: -6px;
+}
+.contenido {
+	height: 430px;
+	margin: 0 auto;
+	margin-bottom: -40px;
+	margin-top: 60px;
+	vertical-align: top;
+	width: 90%;
+}
+.contenidoPage {
+	float: left;
+	height: 500px;
+	margin: 0 auto;
+	margin-bottom: -40px;
+	margin-left: 7%;
+	overflow: hidden;
+	vertical-align: top;
+	width: 40%;
+}
+.contenido h1 {
+	color: #fff;
+	font-size: 1.1em;
+	font-family: Verdana, Arial, Helvetica, serif;
+	font-weight: 100;
+}
+.contenidoPage h1 {
+	color: #fff;
+	font-size: 1.1em;
+	font-family: Verdana, Arial, Helvetica, serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.contenidoPage img {
+	height: 172px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	width: 233px;
+}
+.contenidoPage p {
+	color: #A2A2A2;
+	font-family: Verdana, Arial, Helvetica, serif;
+	font-size: 0.8em;
+	line-height: 22px;
+}
+.cuadro {
+	background-image: url("../img/redo.png");
+	color: #fff;
+	height: 254px;
+	float: right;
+	margin-right: 5%;
+	margin-top: 80px;
+	width: 247px;
+}
+.cuadro:hover {
+	background-image: url("../img/redo-hover.png");
+	color: #000;
+	height: 254px;
+	float: right;
+	margin-right: 5%;
+	margin-top: 80px;
+	width: 247px;
+}
+.cuadro p {
+	height: auto;
+	font-size: 0.9em;
+	font-weight: 100;
+	line-height: 24px;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+	width: 160px;
+}
+.face {
+	background-image: url("../img/facebook.png");
+	height: 30px;
+	margin-left: 200px;
+	margin-top: -8px;
+	width: 30px;
+}
+.face:hover {
+	background-image: url("../img/facebook-hover.png");
+	height: 30px;
+	width: 30px;
+}
+/* ******************************* CLEARFIX ************************************** */
+.clearfix:after {
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+.clearfix {
+  display:inline-block;
+}
+.clearfix {
+  display:block;
+}
+* html .clearfix {
+  height:1px;
+}
