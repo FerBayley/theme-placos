@@ -11,7 +11,13 @@
 		</footer>
 		<!-- FOOTER -->
 
-		<p class="textoLegal">Todos los derechos reservados &copy;2013 - Argentina</small></p>
+		<p class="textoLegal">
+			0343 4.314.327
+			<br>
+			contacto@placoss.com.ar
+			<br>
+			Todos los derechos reservados &copy;2013 - Parana - Argentina
+		</small></p>
 
 		<div class="clearfix"></div>
 

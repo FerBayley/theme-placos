@@ -19,7 +19,7 @@ footer {
 	background-color: #57585A;
 	clear:both;
 	height: 70px;
-	margin-top: 150px;
+	margin-top: 120px;
 	position: fixed;
 	width: 100%;
 }
@@ -82,8 +82,9 @@ nav li a:hover {
 	color: #eee;
 	font-size: 0.8em;
 	text-align: right;
+	line-height: 20px;
 	margin-right: 10px;
-	margin-top: 263px;
+	margin-top: 200px;
 }
 /* ******************************* ID'S ************************************** */
 
