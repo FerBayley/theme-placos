@@ -9,23 +9,28 @@ Template Name: especiales
 		<!-- CONTENIDO -->
 		<section class="contenido">
 
-			
+		<h2>ESPECIALES</h2>
+
+		<section class="marcoNota">
+		<section id="marcoContorno">
+		
+		<?php query_posts('category_name=especiales&showposts=10'); ?>
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class="item entry" id="post-<?php the_ID(); ?>">
-		<div class="itemhead">
-		<h1><?php the_title(); ?></h1>
-		</div>
-		<div class="storycontent">
+		
+		<hgroup>
+			<h1><?php the_title(); ?></h1>
+		</hgroup>
+		
+		<p><?php the_content(); ?></p>
 
-		<?php the_content(); ?>
-		<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-
 		</div>
-		</div>
- 	    <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
 		<?php endwhile; ?>
 	    <?php endif; ?>
+		</section> <!-- End of marcoContorno -->
+
+	    </section> <!-- End of marcoNota -->
 
 
 		</section> <!-- contenido -->

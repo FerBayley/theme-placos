@@ -23,14 +23,17 @@
 	<![endif]-->
 
 	<!-- FAVICON -->
+	<link rel=”icon” href=”http://www.placoss.com.ar/favicon.ico” type=”image/x-icon”> 
+    <link rel=”shortcut icon” href=”http://www.placoss.com.ar/favicon.ico” type=”image/x-icon”> 
+    <LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
 	<link rel="shortcut icon" href="../favicon.ico"> 
 	<!-- FAVICON -->
 
 	<!-- JS -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
-	<script type="text/javascript" src="js/modernizr.custom.18389.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/supersized.3.2.7.min.js"></script>
+	<script src="js/modernizr.custom.18389.js"></script>
 	<!-- JS -->
 
 	<?php wp_head(); ?>

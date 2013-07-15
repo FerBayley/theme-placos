@@ -19,7 +19,7 @@ footer {
 	background-color: #57585A;
 	clear:both;
 	height: 70px;
-	margin-top: 120px;
+	margin-top: 140px;
 	position: fixed;
 	width: 100%;
 }
@@ -82,9 +82,18 @@ nav li a:hover {
 	color: #eee;
 	font-size: 0.8em;
 	text-align: right;
-	line-height: 20px;
+	line-height: 18px;
+	margin-bottom: 0px;
 	margin-right: 10px;
-	margin-top: 200px;
+	margin-top: 228px;
+}
+.textoLegal a {
+	color: #fff;
+	text-decoration: none;
+}
+.textoLegal a:hover {
+	color: #CCC;
+	text-decoration: underline;
 }
 /* ******************************* ID'S ************************************** */
 
@@ -105,6 +114,7 @@ nav li a:hover {
 	margin-top: -6px;
 }
 .contenido {
+	color: #eee;
 	height: 430px;
 	margin: 0 auto;
 	margin-bottom: -40px;
@@ -128,6 +138,18 @@ nav li a:hover {
 	font-family: Verdana, Arial, Helvetica, serif;
 	font-weight: 100;
 }
+.contenido h2 {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #eee;
+	font-family: Helvetica, Arial, Verdana;
+	font-size: 1.1em;
+	margin-bottom: -65px;
+	margin-top: 60px;
+	margin-left: 15px;
+	padding: 10px;
+	font-weight: 100;
+	width: 23%;
+}
 .contenidoPage h1 {
 	color: #fff;
 	font-size: 1.1em;
@@ -146,6 +168,15 @@ nav li a:hover {
 	font-family: Verdana, Arial, Helvetica, serif;
 	font-size: 0.8em;
 	line-height: 22px;
+}
+.cuadro a {
+	color: #ff9000;
+	display: block;
+	text-decoration: none;
+}
+.cuadro a:hover {
+	color: #333;
+	text-decoration: none;
 }
 .cuadro {
 	background-image: url("../img/redo.png");
@@ -186,6 +217,85 @@ nav li a:hover {
 	background-image: url("../img/facebook-hover.png");
 	height: 30px;
 	width: 30px;
+}
+
+.marcoNota {
+	height: auto;
+	margin: 0 auto;
+	margin-top: 150px;
+	overflow: auto;	
+	width: 100%;
+}
+.quienesSomos {
+	height: auto;
+	margin-top: 15px;
+	width: 50%;
+}
+.quienesSomos p {
+	color: #eee;
+	font-family: Helvetica, Arial, Verdana;
+	font-size: 1.0em;
+	line-height: 23px;
+	padding: 0 10px 10px 12px;
+}
+.marcoNota h1 {
+	font-size: 0.9em;
+	font-family: Helvetica, Arial, Verdana;
+	font-weight: 100;
+	margin-bottom: -5px;
+	padding: 10px 0 0 10px;
+}
+.marcoNota p {
+	color: #eee;
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 0.9em;
+	line-height: 22px;
+	padding: 10px 0 0 10px;
+}
+#marcoContorno {
+	height: auto;
+	margin: 0 auto;
+	width: 99%;
+}
+#contCuad {
+	height: auto;
+	margin: 0 auto;
+	width: 80%;
+}
+#cuad01, #cuad02 {
+	color: #eee;
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 0.9em;
+	height: auto;
+	display: inline-block;
+	line-height: 24px;
+	margin-left: 2.0em;
+	margin-right: 3.5em;
+	margin-top: 45px;
+	padding-bottom: 20px;
+	vertical-align: middle;
+	width: 41.5%;
+}
+#novedades {
+	color: #eee;
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 0.9em;
+	height: auto;
+	line-height: 23px;
+	margin-left: 1.5em;
+	margin-top: 90px;
+	width: 95%;
+}
+#cuad01 a {
+	color: #eee;
+	text-decoration: none;
+}
+#cuad01 a:hover {
+	color: #666;
+	text-decoration: none;
+}
+.mapa {
+	margin-left: 1.1em;
 }
 /* ******************************* CLEARFIX ************************************** */
 .clearfix:after {

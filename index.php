@@ -6,7 +6,7 @@
 			<a href="">
 				<div class="cuadro">
 					
-					
+				<?php query_posts('category_name=noticias&showposts=1'); ?>	
 				<?php if (have_posts()) : ?>
 				<?php while (have_posts()) : the_post(); ?>
 
@@ -16,7 +16,7 @@
 				
 				</div>
 
-					<p><?php the_content('Read more &raquo;'); ?></p>
+					<p><?php the_content('ver m&aacute;s &raquo;'); ?></p>
 
 				</div>
 
