@@ -18,7 +18,7 @@ Template Name: cocina
 		<div class="item entry" id="post-<?php the_ID(); ?>">
 	
 		<hgroup>
-			<h1><?php the_title(); ?></h1>
+			<h3><?php the_title(); ?></h3>
 		</hgroup>		
 	
 		<p><?php the_content(); ?></p>

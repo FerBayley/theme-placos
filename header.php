@@ -12,7 +12,7 @@
 	<title><?php bloginfo('name');?><?php wp_title();?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Placoss muebles a medida, calida y diseño" />
-    <meta name="keywords" content="muebles, muebles a medida, muebles modernos" />
+    <meta name="keywords" content="muebles, muebles a medida, muebles modernos, diseño de muebles exlusivos" />
 
 	<!-- CSS -->
 	<link href="<?php bloginfo('template_directory')?>/style.css" rel="stylesheet" type="text/css" media="screen" />
