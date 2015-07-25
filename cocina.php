@@ -11,18 +11,19 @@ Template Name: cocina
 
 		<h2>COCINAS</h2>
 
-		<section class="marcoNota">
-		<section id="marcoContorno" class="boxscroll">
+		<section id="marcoContorno">
 		<?php query_posts('category_name=cocina&showposts=10'); ?>
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class="item entry" id="post-<?php the_ID(); ?>">
 	
 		<hgroup>
-			<h3><?php the_title(); ?></h3>
+			<h1><?php the_title(); ?></h1>
 		</hgroup>		
 	
-		<p><?php the_content(); ?></p>
+		<section class="separador"></section> <!-- End of separador  -->
+
 		
+			<p><?php the_content(); ?></p>	
 
 		</div>
 
@@ -31,7 +32,7 @@ Template Name: cocina
 	 
 		</section> <!-- End of marcoContorno -->
 
-	    </section> <!-- End of marcoNota -->
+
 
 
 		</section> <!-- contenido -->

@@ -10,7 +10,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 	<title><?php bloginfo('name');?><?php wp_title();?></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<meta name="description" content="Placoss muebles a medida, calida y diseño" />
     <meta name="keywords" content="muebles, muebles a medida, muebles modernos, diseño de muebles exlusivos" />
 
@@ -23,17 +23,14 @@
 	<![endif]-->
 
 	<!-- FAVICON -->
-	<link rel=”icon” href=”http://www.placoss.com.ar/favicon.ico” type=”image/x-icon”> 
-    <link rel=”shortcut icon” href=”http://www.placoss.com.ar/favicon.ico” type=”image/x-icon”> 
+	<link rel="icon" href="http://www.placoss.com/favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="http://www.placoss.com/favicon.ico" type="image/x-icon"> 
     <LINK REL="SHORTCUT ICON" HREF="favicon.ico"> 
 	<link rel="shortcut icon" href="../favicon.ico"> 
 	<!-- FAVICON -->
 
 	<!-- JS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/supersized.3.2.7.min.js"></script>
-	<script src="js/modernizr.custom.18389.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<!-- JS -->
 
 	<?php wp_head(); ?>
@@ -41,6 +38,7 @@
 
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<section id="wrapper">
 
 		<!-- HEADER -->
@@ -50,12 +48,12 @@
 				<nav>
 					<ul>
 						<li>
-							<a href="">INICIO</a>
+							<a href="http://www.placoss.com">INICIO</a>
 						</li>
 						<li>
-							<a href="">CONTACTENOS</a>
+							<a href="http://www.placoss.com/contcato/">CONTACTENOS</a>
 						</li>
-						<a href="">
+						<a href="https://www.facebook.com/pages/Placoss-Muebles-a-medida/647237701953785">
 							<div class="face"></div> <!-- End of face -->
 						</a>
 					</ul>

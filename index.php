@@ -12,7 +12,7 @@
 
 				<div class="item entry" id="post-<?php the_ID(); ?>">
 				<div class="itemhead">
-				<h3><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+				<h1><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 				
 				</div>
 
@@ -24,8 +24,16 @@
 				<?php else : ?>
 				<?php endif; ?>
 
-				</div> <!-- End of cuador -->
+				</div> <!-- End of cuadro -->
 		    </a>
+
+		    <div class="cuadroMovil">
+					
+				<ul>
+					<?php wp_list_pages('title_li=');?>
+				</ul>
+
+			</div> <!-- End of cuadroMovil -->
 
 		</section>
 

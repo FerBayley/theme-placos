@@ -10,7 +10,11 @@ body {
 	width: 100%;
 }
 h3 {
-	display: none;
+	color: #eee;
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: 100;
+	margin-left: 10px;
 }
 img {
 	border: 0px;
@@ -19,8 +23,7 @@ footer {
 	background-color: #57585A;
 	clear:both;
 	height: 70px;
-	margin-top: 140px;
-	position: fixed;
+	margin-top: 80px;
 	width: 100%;
 }
 footer img {
@@ -60,7 +63,7 @@ nav ul {
 	font-weight: 100;
 	padding-top: 18px;
 	margin-left: 175px;
-	width: 243px;
+	width: 55%;
 }
 nav li {
 	font-size: 0.8em;
@@ -85,7 +88,7 @@ nav li a:hover {
 	line-height: 18px;
 	margin-bottom: 0px;
 	margin-right: 10px;
-	margin-top: 218px;
+	margin-top: 10px;
 }
 .textoLegal a {
 	color: #fff;
@@ -145,7 +148,7 @@ nav li a:hover {
 	font-size: 1.1em;
 	margin-bottom: -65px;
 	margin-top: 60px;
-	margin-left: 15px;
+	margin-left: 0px;
 	padding: 10px;
 	font-weight: 100;
 	width: 23%;
@@ -252,10 +255,32 @@ nav li a:hover {
 	line-height: 22px;
 	padding: 10px 0 0 10px;
 }
+.separador {
+	background-color: #222;
+	height: 1px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 95%;
+}
+.separador:last-child {
+	display: none;
+}
 #marcoContorno {
-	height: auto;
-	margin: 0 auto;
-	width: 99%;
+	height: 370px;
+	margin-top: 80px;
+	overflow: auto;
+	width: 	100%;
+}
+#marcoContorno h1 {
+	margin-left: 15px;
+}
+#marcoContorno img {
+	padding: 5px;
+	margin: 5px 20px 50px 8px;
+}
+#comboNav {
+	display: none;
 }
 #contCuad {
 	height: auto;
@@ -297,6 +322,22 @@ nav li a:hover {
 .mapa {
 	margin-left: 1.1em;
 }
+.cuadroMovil {
+	display: none;
+}
+#cuatroVeinte {
+	display: none;
+}
+#contenidoNoticias p {
+	color: #eee;
+	font-size: 0.9em;
+	line-height: 21px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.itemhead {
+	display: none;
+}
 /* ******************************* CLEARFIX ************************************** */
 .clearfix:after {
   content:".";
@@ -313,4 +354,195 @@ nav li a:hover {
 }
 * html .clearfix {
   height:1px;
+}
+
+
+#maps {
+	height: auto;
+	margin: 0 auto;
+	margin-left: 15px;
+	width: 95%;
+}
+#infoInstitucional {
+	color: #ccc;
+	width: 70%;
+	margin-left: 15px;
+	line-height: 25px;
+	height: auto;
+}
+#infoInstitucional span {
+	color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	margin-top: 10px;
+	font-weight: 100;
+}
+#infoInstitucional p {
+	font-size: 1.0em;
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: 100;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#infoInstitucional a {
+	color: #ccc;
+	text-decoration: none;
+}
+#infoInstitucional a:hover {
+	color: #fff;
+}
+.tituloMapas {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 1.0em;
+	font-weight: 100;
+	margin-bottom: 10px;
+	margin-left: 15px;margin-top: 20px;
+}
+#contenidoSocial {
+	height: auto;
+	margin-left: 15px;
+	width: 90%;
+}
+.btnSocial {
+	display: inline-block;
+	padding: 10px;
+	vertical-align: center;
+	width: 200px;
+	height: 23px;
+	margin: 10px 10px 10px 0;
+	text-align: center;
+	background-color: green;
+}
+#face {
+	background-color: #3b5b8c;
+}
+#face:hover {
+	background-color: #4468a0;
+}
+#mapa {
+	background-color: #fa6d03;
+}
+#mapa:hover {
+	background-color: #dd6205;
+}
+#contenidoSocial a {
+	color: #fff;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 420px) {
+ 
+		.cuadro {
+			display: none;
+		}
+		.textoLegal {
+			text-align: center;
+		}
+		footer {
+  			background-color:#57585A;
+  			clear:both;
+  			height:70px;
+  			margin-top: -160px;
+  			width:100%;
+		}
+		footer img {
+			display: block;
+			height: auto;
+			text-align: center;
+			margin-left: -30px;
+		}
+		footer ul {
+			display: none;
+		}
+		select {
+			width: 100%;
+		}
+		.cuadroMovil {
+			color: #333;
+			display: inline-block;
+			background-color: rgba(255,255,255,0.70);
+			height: auto;
+			margin-top: -10px;
+			width: 100%;
+		}
+		.cuadroMovil ul li {
+			border-bottom: solid 1px #333;
+			font-family: Helvetica, Verdana, Arial;
+			font-size: 1.0em;
+			text-align: center;
+			list-style: none;
+			padding: 20px;
+		}
+		.cuadroMovil ul li a {
+			color: #000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		footer img {	
+			margin-right: 32%;
+		}
+		.marcoNota {
+			height: auto;
+			margin: 0 auto;
+			margin-top: 70px;
+			width: 100%;
+		}
+		.marcoNota img {
+			height: auto;
+			margin: 0px;
+			padding: 0px;
+			margin-bottom: 10px;
+			margin-left: -6px;
+			width: 100%;
+		}
+		.contenido {
+			height: auto;
+			margin-bottom: 200px;
+			margin-top: 60px;
+			vertical-align: top;
+			width: 100%;
+		}
+		.cuadro {
+			background-image: url("../img/redo.png");
+			color: #fff;
+			height: auto;
+			float: right;
+			margin-right: 5%;
+			margin-top: 80px;
+			width: 247px;
+		}
+		#cuad01 {
+			color: #fff;
+			height: auto;
+			margin-top: -20px;
+			width: 95%;
+		}
+		#cuad01 p {
+			padding: 10px;
+			margin-right: 20px;
+			width: 100%;
+		}
+		#contCuad {
+			width: 100%;
+			margin-left: -20px;
+		}
+		.mapa {
+			width: 250px;
+			margin: 0 auto;
+			height: 250px;
+		}
+		.contenido h2 {
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #eee;
+			font-family: Helvetica, Arial, Verdana;
+			font-size: 1.1em;
+			margin-bottom: -65px;
+			margin-top: 60px;
+			margin-left: 5px;
+			padding: 10px;
+			font-weight: 100;
+			width: 92%;
+		}
+
+
 }
